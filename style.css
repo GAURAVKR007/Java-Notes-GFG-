@@ -6,7 +6,7 @@
     padding: 2%;
 }
 
-h2{
+.Abt-java{
     text-decoration: underline;
     font-weight: bold;
     font-size: 3rem;
@@ -21,10 +21,10 @@ h2{
     background-color: #CED89E;
 }
 
-p{
+/* p{
     text-align: center;
     width: 50%;
-}
+} */
 
 .AbtJava{
     text-align: center;
@@ -39,6 +39,10 @@ p{
 }
 .Sjp {
     border: 2px solid;
+}
+.Output1:hover{
+    color: #f54b59;
+    transition: color 0.3s;
 }
 .h3sjp{
     margin-bottom: 15px;
@@ -55,4 +59,72 @@ p{
     width: 35%;
     padding: 30px;
     margin-top: 25px;
+}
+
+h1 {
+    margin-bottom: 2%;
+}
+.var-data{
+    text-align: center;
+    Padding: 4% 15%;
+    line-height: 1.5;
+    background-color: #edf59c;
+}
+
+.varinit {
+    text-align: left;
+}
+
+
+.varpoints{
+    text-align: left;
+}
+
+.dark-tittle{
+    font-weight: bold;
+}
+
+.var-table{
+    margin-top: 2%;
+}
+
+.table-header{
+    background-color: #73A9AD;
+    color: black;
+    font-weight: bold;
+}
+
+.header-text:hover{
+    transition: color 0.7s;
+    color: whitesmoke;
+}
+
+.var-table-body{
+    background-color: #C4DFAA;
+}
+
+.non-pr-dt{
+    font-size: 1.3rem;
+    width: 7%;
+}
+
+.non-pr-dt:hover{
+    color: #f54b59;
+}
+
+.type-cast{
+    border: 2px solid;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 30px;
+    margin-top: 25px;
+}
+.type-cast1{
+    border: 2px solid;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    padding: 30px;
+    margin-top: 25px;
+    color: gray;
 }

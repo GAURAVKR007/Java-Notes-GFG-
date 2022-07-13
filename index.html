@@ -29,7 +29,7 @@
     </div>
 
     <div class="About-java">
-        <h2> About Java </h2>
+        <h2 class="Abt-java Output1"> About Java </h2>
         <div class="row">
             <div class="col-6 AbtJava">
                 <i class="bi bi-record-fill"></i> Java is Object Oriented. However, it is not considered as pure
@@ -54,17 +54,178 @@
 
         <div class="row simprog">
             <div class="col-6 HWProgram">
-                <h3 class="h3sjp"> <strong class="Sjp"> Simple Java Program </strong> </h3>
+                <h3 class="h3sjp Output1"> <strong class="Sjp"> Simple Java Program </strong> </h3>
                 // A Java program to print "Hello World" <br>
-                public class GFG {   <br>
-                public static void main(String args[]) {   <br>
-                System.out.println("Hello World"); }  } <br>
-               
+                public class GFG { <br>
+                public static void main(String args[]) { <br>
+                System.out.println("Hello World"); } } <br>
+
             </div>
             <div class="col-6 outputhw">
-                Output : Hello World
+                <span class="Output1"> Output : Hello World </span>
             </div>
         </div>
+    </div>
+
+    <div class="var-data">
+        <h1 class="Output1"><u> Variables and DATA TYPE </u></h1>
+        Variable in Java is a data container that saves the data values during Java program execution. Every variable is
+        assigned a data type that designates the type and quantity of value it can hold. A variable is a memory location
+        name for the data. <br><br>
+
+        <p class="varinit"> A variable is a name given to a memory location. It is the basic unit of storage in a
+            program.</p>
+        <ol class="varpoints">
+            <li>
+                The value stored in a variable can be changed during program execution.
+            </li>
+            <li>
+                A variable is only a name given to a memory location. All the operations done on the variable affect
+                that memory location.
+            </li>
+            <li>
+                In Java, all variables must be declared before use.
+            </li>
+        </ol>
+
+        <h3>How to initialize variables?</h3> <br>
+        <p class="varinit"> It can be perceived with the help of 3 components that are as follows:</p>
+        <ol class="varpoints">
+            <li><span class="dark-tittle"> datatype:</span> Type of data that can be stored in this variable.</li>
+            <li><span class="dark-tittle">variable_name:</span> Name given to the variable.</li>
+            <li><span class="dark-tittle">value:</span> It is the initial value stored in the variable.</li>
+        </ol>
+
+        <strong> <u>
+                <p class="varinit"> Code Implementation: </p> </strong></u>
+        <div class="col-6 outputhw">
+            <span class="Output1"> int variable = 007; </span>
+        </div>
+        <br>
+        <p class="varinit">Java has two categories in which data types are segregated.</p>
+        <ol class="varpoints">
+            <li><span class="dark-tittle"> Primitive Data Type:</span> such as boolean, char, int, short, byte, long,
+                float, and double</li>
+            <li><span class="dark-tittle">Non-Primitive Data Type or Object Data type:</span> such as String, Array,
+                etc.</li>
+        </ol>
+        <br>
+        <h2 class="Output1">Types Of Primitive Data Types</h2> <br>
+        <p class="varinit">Primitive data are only single values and have no special capabilities. <br> There are 8
+            primitive data types. They are depicted below in tabular format below as follows: </p>
+
+        <Table class="table-bordered table table-hover text-center var-table">
+            <thead class="table-header">
+                <tr>
+                    <td class="header-text">TYPE</td>
+                    <td class="header-text">DESCRIPTION</td>
+                    <td class="header-text">DEFAULT</td>
+                    <td class="header-text">SIZE</td>
+                    <td class="header-text">EXAMPLE LITERALS</td>
+                    <td class="header-text">RANGE OF VALUES</td>
+                </tr>
+            </thead>
+            <tbody class="var-table-body">
+                <tr>
+                    <td>boolean</td>
+                    <td>true or false</td>
+                    <td>false</td>
+                    <td>1 bit</td>
+                    <td>true,false</td>
+                    <td>true,false</td>
+                </tr>
+                <tr>
+                    <td>byte</td>
+                    <td>two's complement integer</td>
+                    <td>0</td>
+                    <td>8 bits</td>
+                    <td>1, 2, -3, 77, -90</td>
+                    <td>-128 to 127</td>
+                </tr>
+                <tr>
+                    <td>char</td>
+                    <td>unicode character</td>
+                    <td>\u0000</td>
+                    <td>16 bits</td>
+                    <td>'a', 'b', 'c', '\u0041'</td>
+                    <td>character representation <br> of ASCII values 0 to 255</td>
+                </tr>
+                <tr>
+                    <td>short</td>
+                    <td>two's complement integer</td>
+                    <td>0</td>
+                    <td>16 bits</td>
+                    <td>1,2,-3,77,-90</td>
+                    <td>-32,768 to 32,767</td>
+                </tr>
+                <tr>
+                    <td>int</td>
+                    <td>two's complement integer</td>
+                    <td>0</td>
+                    <td>32 bits</td>
+                    <td>-2, -1, 0, 1, 2</td>
+                    <td>-2,147,483,648  to <br> 2,147,483,647 </td>
+                </tr>
+                <tr>
+                    <td>long</td>
+                    <td>two's complement integer</td>
+                    <td>0</td>
+                    <td>64 bits</td>
+                    <td>-2L, -1L, 0L, 1L, 2L</td>
+                    <td>-9,223,372,036,854,775,808  to <br> 9,223,372,036,854,775,807 </td>
+                </tr>
+                <tr>
+                    <td>float</td>
+                    <td>IEEE 754 floating point</td>
+                    <td>0.0</td>
+                    <td>32 bits</td>
+                    <td>3.14f, 4.123f, 2.12f</td>
+                    <td>upto 7 decimals digits</td>
+                </tr>
+                <tr>
+                    <td>float</td>
+                    <td>IEEE 754 floating point</td>
+                    <td>0.0</td>
+                    <td>64 bits</td>
+                    <td>3.14d, 4.123d, 2.12d</td>
+                    <td>upto 16 decimals digits</td>
+                </tr>
+            </tbody>
+        </Table>
+            <br>
+        <h2 class="Output1"> Non-Primitive Data Type or Reference Data Types</h2> <br>
+        <p class="varinit">Some of the types are shown below: <br><span class="dark-tittle"> Note:</span>  we will study these in detail in future.</p>
+
+        <ul class="varpoints">
+            <li class="non-pr-dt"> Strings </li>
+            <li class="non-pr-dt"> class</li>
+            <li class="non-pr-dt"> object</li>
+            <li class="non-pr-dt"> Array</li>
+            <li class="non-pr-dt"> interface</li>
+        </ul>
+        <br>
+        <h2 class="Output1"> Type Casting </h2> <br>
+        <p class="varinit"> Code Implementation: </p> </strong></u>
+        <div class="col-12 type-cast">
+            <span class="Output1 dark-tittle"> Data-type variable = (data-type) variable;  </span>
+        </div>
+        <br>
+        <p class="varinit">Another Code Implementation for better understanding: </p> </strong></u>
+        <div class="col-12 type-cast1">
+            <span> public class Main { <br>
+                public static void main(String[] args) {  <br>
+                  double myDouble = 9.78d;   <br>
+                  int myInt = (int) myDouble; // Manual casting: double to int  <br>
+              
+                  System.out.println(myDouble);   // Outputs 9.78  <br>
+                  System.out.println(myInt);      // Outputs 9  
+                } 
+              }  </span>
+        </div>
+
+
+
+
     </div>
 
 </body>
